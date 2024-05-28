@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="updateinfo.css">
+    <link rel="icon" href="NA File Server.png">
+    <title>Update Info</title>
+</head>
+
+<body background="background 2.png">
+
+    <div class="back-button"><a href="hostel_updateAdmin.html">Back</a></div>
+
+    <br>
+
+    <div class="content">
+        <h3>Update Information</h3>
+        <form action="hostel_informtaionupdateAdmin.php" method="post">
+
+            <div class="main">
+                <div class="form">
+                    <h3>ID</h3>
+                </div>
+                <div class="form"><input type="text" name="sid"></div>
+            </div>
+            <div class="main">
+                <div class="form">
+                    <h3>ROOM</h3>
+                </div>
+                <div class="form"><input type="number" name="room"></div>
+            </div>
+
+            <div class="main">
+                <div class="form">
+                    <h3>DUE</h3>
+                </div>
+                <div class="form"><input type="number" name="due"></div>
+            </div>
+
+            <div class="main">
+                <div class="form">
+                    <h3>ADMIT DAY</h3>
+                </div>
+                <div class="form"><input type="date" name="day"></div>
+            </div>
+
+            <div class="main">
+                <div class="form">
+                    <h3>Next Due</h3>
+                </div>
+                <div class="form"><input type="date" name="nextday"></div>
+            </div>
+
+            <div class="sub-btn">
+                <button type="submit" value="Save">Save</button>
+            </div>
+        </form>
+
+
+
+
+</body>
+
+</html>

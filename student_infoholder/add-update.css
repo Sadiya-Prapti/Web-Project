@@ -1,0 +1,183 @@
+
+html
+{
+    scroll-behavior: smooth;
+}
+body
+{
+    font-style: normal;
+    text-decoration: none;
+    font-family: montserrat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+nav
+{
+    width: auto;
+    height: 40px;
+    background-color: #00fcfc;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+label
+{
+    width: fit-content;
+    height: fit-content;
+    margin-left: 10%;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    padding: 5px 10px;
+    text-align: center;
+    background-color: blue;
+    border-radius: 5px;
+}
+
+.menu-text
+{
+    width: auto;
+    height: fit-content;
+    display: flex;
+    float: right;
+}
+.menu-text li
+{
+    list-style: none;
+    margin-top: 10px;
+}
+.menu-text li :hover
+{
+    color: rgb(0, 0, 0);
+    background-color: #fbfbfc;
+    transition: .4s;
+    cursor: pointer;
+}
+.menu-text li a
+{
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    color: white;
+    background-color: #1F51FF;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+
+
+ .table
+ {
+     background-color:#F0FFFF;
+     margin-top: 4%;
+     margin-left: 15%;
+     margin-right: 15%;
+ }
+.main
+{
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+}
+
+.content
+{
+    margin-bottom: 3%;
+}
+
+ .data-cell
+{
+    display:inline-block;
+    height: fit-content;
+    text-align: center;
+    font-size: 25px;
+    justify-content: space-evenly;
+    margin-left: 15%;
+    text-transform:capitalize;
+}
+
+
+.content h3
+{
+   width:320px;
+   height: fit-content;
+   background-color: aqua;
+   padding: 3% 4%;
+   margin-bottom: 2%;
+   text-align: center;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+
+.form
+{
+    display:inline-block;
+    height: fit-content;
+    text-align: center;
+    font-size: 25px;
+    padding: 3% 4%;
+    margin-left: 10%;
+}
+.form h3
+{
+   width:320px;
+   height: fit-content;
+   background-color: aqua;
+   padding: 3% 4%;
+   margin-bottom: 2%;
+   text-align: center;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.form input
+{
+    width: auto;
+    height: 40px;
+    font-size: 25px;
+    text-align: center;
+}
+.form select
+{
+    width: auto;
+    height: 40px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.sub-btn
+{
+    text-align: center;
+    padding-bottom: 3%;
+}
+.sub-btn button
+{
+    width: max-content;
+    margin-top: 3%;
+    text-align: center;
+    font-size: 20px;;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    color: azure;
+    background-color: blue;
+    padding: 8px 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.add-update
+{
+    font-size: 30px;
+    color: black;
+    background-color:cyan;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 800;
+    text-align: center;
+    padding: 8px 12px;
+}

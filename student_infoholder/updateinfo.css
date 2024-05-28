@@ -1,0 +1,112 @@
+html
+{
+    scroll-behavior: smooth;
+}
+body
+{
+    font-style: normal;
+    text-decoration: none;
+    font-family: montserrat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.back-button a
+{
+    margin-top: 2%;
+    margin-right: 4%;
+    text-decoration: none;
+    font-size: 20px;;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    color: black;
+    background-color: #00fcfc;
+    padding: 13px 13px;
+    border-radius: 5px;
+    float: right;
+}
+
+.content
+{
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: aliceblue;
+}
+h3
+{
+    margin-top: 10%;
+    font-size: 30px;
+    color: black;
+    background-color:cyan;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 800;
+    text-align: center;
+    padding: 8px 12px;
+}
+
+.form
+{
+    display:inline-block;
+    height: fit-content;
+    text-align: center;
+    font-size: 25px;
+    padding: 3% 4%;
+    margin-left: 10%;
+}
+.form h3
+{
+   width:320px;
+   height: fit-content;
+   background-color: aqua;
+   padding: 3% 4%;
+   margin-bottom: 2%;
+   text-align: center;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.form input
+{
+    width: auto;
+    height: 40px;
+    font-size: 25px;
+    text-align: center;
+}
+.form select
+{
+    width: auto;
+    height: 40px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.sub-btn
+{
+    text-align: center;
+    padding-bottom: 3%;
+}
+.sub-btn button
+{
+    width: max-content;
+    margin-top: 3%;
+    text-align: center;
+    font-size: 20px;;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    color: azure;
+    background-color: blue;
+    padding: 8px 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-update
+{
+     font-size: 30px;
+    color: black;
+    background-color:cyan;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 800;
+    text-align: center;
+    padding: 8px 12px;
+}

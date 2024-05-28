@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="updateinfo.css">
+    <link rel="icon" href="NA File Server.png">
+    <title>Update Info</title>
+</head>
+<body background="background 2.png">
+    
+    <div class="back-button"><a href="student_information.php">Back</a></div>
+
+    <br>
+
+    <div class="content">
+        <h3>ADD/Update Information</h3>
+
+        <form action="updateInfo.php" method="post">
+            <div class="main">
+                <div class="form"><h3>First Name</h3></div>
+                <div class="form"><input type="text" name="firstname"></div>
+            </div>
+            <div class="main">
+                <div class="form"><h3>Last Name</h3></div>
+                <div class="form"><input type="text" name="lastname"></div>
+            </div>
+            <div class="main">
+                <div class="form"><h3>Batch</h3></div>
+                <div class="form"><input type="text"  name="section"></div>
+            </div>
+            <div class="main">
+                <div class="form"><h3>Department</h3></div>
+                <div class="form"><input type="text" name="department"></div>
+            </div>
+            <div class="main">
+                <div class="form"><h3>Credit</h3></div>
+                <div class="form"><input type="number" name="credit"></div>
+            </div>
+            <div class="main">
+                <div class="form"><h3>Contact</h3></div>
+                <div class="form"><input type="text" name="phn"></div>
+            </div>
+            <div class="main">
+                <div class="form"><h3>Email</h3></div>
+                <div class="form"><input type="email" name="email"></div>
+            </div>
+            <div class="main">
+                <div class="form"><h3>Local Address</h3></div>
+                <div class="form"><input type="text" name="lad"></div>
+            </div>
+            <div class="main">
+                <div class="form"><h3>Permanent Address</h3></div>
+                <div class="form"><input type="text" name="pad"></div>
+            </div>
+            <div class="main">
+                <div class="form"><h3>Gender</h3></div>
+                <div class="form">
+                    <label for="gender">Gender: </label>
+                    <select name="gender" id="gender">
+                        <option value="0">Null</option>
+                        <option value="1">Male</option>
+                        <option value="2">Female</option>
+                    </select>
+                </div>
+            </div>
+            <div class="main">
+                <div class="form"><h3>Religion</h3></div>
+                <div class="form"><input type="text" name="religion"></div>
+            </div>
+            <div class="main">
+                <div class="form"><h3>Blood Group</h3></div>
+                <div class="form"><input type="text" name="blood"></div>
+            </div>
+    
+    
+            <div class="sub-btn">
+                <button type="submit" value="Save">Save</button>
+            </div>
+        </form>
+    </div>
+
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+html
+{
+    scroll-behavior: smooth;
+}
+body
+{
+    font-style: normal;
+    text-decoration: none;
+    font-family: montserrat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.back-button a
+{
+    margin-top: 2%;
+    margin-right: 4%;
+    text-decoration: none;
+    font-size: 20px;;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    color: black;
+    background-color: #00fcfc;
+    padding: 13px 13px;
+    border-radius: 5px;
+    float: right;
+}
